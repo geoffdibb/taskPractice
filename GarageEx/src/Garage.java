@@ -128,6 +128,21 @@ public class Garage {
 		}
 	}
 
+	public void removeVehicleBikev2() {
+		// garageCapacity.removeAll(garageCapacity.stream().filter(x -> !(x instanceof
+		// Bike)).collect(Collectors.toList()));
+		// System.out.println(garageCapacity);
+		// return garageCapacity.stream().filter(x -> !(x instanceof
+		// Bike)).collect(Collectors.toList()));
+
+	}
+
+	public void cleanse() {
+		garageCapacity.clear();
+		System.out.println(garageCapacity);
+
+	}
+
 	public void addAnCar(int noOfWheels, String colour, String make, int speed, String name) {
 		Car newCar = new Car(noOfWheels, colour, speed, make, name);
 		garageCapacity.add(newCar);

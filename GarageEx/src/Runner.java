@@ -27,5 +27,7 @@ public class Runner {
 		// carStorageList.removeVehicleBikeAccesories("Tassles");
 		// carStorageList.addAnCar(48, "Mauve", "Good", 60, "vehicle7");
 		// carStorageList.addAnVehicle("car", 3, "Auburn", "Bad", 77, "vehicle7");
+		// carStorageList.removeVehicleBikev2();
+		carStorageList.cleanse();
 	}
 }
